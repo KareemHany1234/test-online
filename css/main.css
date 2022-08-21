@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+}
+
+.profile-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 5px solid white;
+    border-radius: 20px;
+}
+
+.profile-header h1{
+color: white;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+position: relative;
+text-align: center;
+
+}
+.profile-header h1::after{
+content: "";
+width: 20%;
+height: 5px;
+background-color: white;
+position: absolute;
+top: 50%;
+right: 0px;
+
+}
+
+.profile-header h1::before{
+content: "";
+width: 20%;
+height: 5px;
+background-color: white;
+position: absolute;
+top: 50%;
+left: 0px;
+
+}
+
+.row{
+    margin: 50px 0px ;  
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+
+
+.profile{
+width: 350px;
+height: 350px;
+background-image: url(../images/p1.jpg);
+background-size: 100% 100%;
+margin: auto;
+position: relative;
+
+}
+.caption{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4);
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+text-align: center;
+position: absolute;
+top: 100%;
+right: 100%;
+transition: all 1s;
+opacity: 0;
+
+
+
+}
+.profile:hover .caption{
+top: 0%;
+right: 0%;
+opacity: 1;
+transform: rotate(360deg);
+
+}
+
+.caption:hover .socialLinks{
+   bottom:  0%;
+    
+}
+.caption h1 {
+    padding: 10px 0px;
+    color: white;
+}
+.caption p{
+padding: 0px 20px;
+color: white;
+
+}
+.caption a{
+color: aqua;
+
+}
+.caption i{
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.pro{
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/p3.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    
+    }
+    .cap{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+      position: absolute;
+        top: 100%;
+      right: 100%;
+      transition: all 1s;
+      opacity: 0;
+      }
+.pro:hover .cap{
+top: 0%;
+right: 0%;
+opacity: 1;
+transform: rotate(360deg);
+
+}
+.cap:hover .socialLinks{
+    bottom:  0%;
+     
+ }
+
+    
+    
+        .cap h1 {
+        padding: 10px 0px;
+        color: white;
+    }
+    .cap p{
+    padding: 0px 20px;
+    color: white;
+    
+    }
+    .cap a{
+    color: aqua;
+    
+    }
+    .cap i{
+        font-size: 25px;
+        margin: 10px;
+        
+    }
+    .pro1{
+        width: 350px;
+        height: 350px;
+        background-image: url(../images/p4.jpg);
+        background-size: 100% 100%;
+        margin: auto;
+        position: relative;
+        
+        }
+        .cap1{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        opacity: 0;
+        transition: all 1s;
+        position: absolute;
+        right: 100%;
+        top: 100%;
+
+        }
+        .pro1:hover .cap1{
+        opacity: 1;
+        top: 0%;
+        right: 0%;
+        transform: rotate(360deg);
+        
+        }
+        .cap1:hover .socialLinks{
+            bottom:  0%;
+             
+         }
+        .cap1 h1 {
+            padding: 10px 0px;
+            color: white;
+        }
+        .cap1 p{
+        padding: 0px 20px;
+        color: white;
+        
+        }
+        .cap1 a{
+        color: aqua;
+        
+        }
+        .cap1 i{
+            font-size: 25px;
+            margin: 10px;
+            
+        }
+        .socialLinks{
+width: 100%;
+background-color: rgba(206, 29, 29, 0.4);
+margin-top: 50px;
+position: absolute;
+bottom: 100%;
+transition: all 1s;
+
+        }
